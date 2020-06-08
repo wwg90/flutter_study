@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
-import 'widgets/cart_test.dart';
-import 'cupertinos/cupertino_activity_indicator.dart';
-import 'cupertinos/cupertino_alert_dialog.dart';
-import 'cupertinos/cupertino_button.dart';
-import 'cupertinos/cupertino_page.dart';
+import 'layouts/padding_layout.dart';
+import 'layouts/align_layout.dart';
+import 'layouts/row_layout.dart';
+import 'layouts/column_layout.dart';
+import 'layouts/fittedbox_layout.dart';
+import 'layouts/stack_alignment_layout.dart';
+import 'layouts/stack_positioned_layout.dart';
 
 void main() => runApp(new MyApp());
 
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'widget test',
       theme: ThemeData.light(),
-      home: CupertinoPageTest(),
+      home: StackPositionedLayout(),
     );
   }
 }
