@@ -58,6 +58,7 @@ flutter:
     - images/7.png
     - images/8.png
     - images/9.png
+    - images/cargril.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

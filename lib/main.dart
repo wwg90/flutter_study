@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'layouts/limitedbox_layout.dart';
-import 'layouts/aspectratio_layout.dart';
-import 'layouts/fractionallysizedbox_layout.dart';
-import 'layouts/listview_layout.dart';
-
+import 'layouts/example_page.dart';
 
 void main() => runApp(new MyApp());
 
@@ -12,9 +8,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'widget test',
-      theme: ThemeData.light(),
-      home: ListViewLayout(),
+      theme: ThemeData(
+          brightness: Brightness.light,
+          primaryColor: Colors.lightGreen[600],
+          accentColor: Colors.orange[600]),
+      home: ExamplePageLayout(),
     );
   }
 }
@@ -46,7 +46,6 @@ class GridViewTest extends StatelessWidget {
     );
   }
 }
-
 
 class RowTest extends StatelessWidget {
   @override
