@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'layouts/example_page.dart';
+import 'gesturedetector/gesturedetector_layout.dart';
+import 'gesturedetector/dismissible_layout.dart';
 
 void main() => runApp(new MyApp());
 
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
           brightness: Brightness.light,
           primaryColor: Colors.lightGreen[600],
           accentColor: Colors.orange[600]),
-      home: ExamplePageLayout(),
+      home: DismissibleLayout(),
     );
   }
 }
