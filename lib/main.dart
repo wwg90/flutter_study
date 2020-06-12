@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:myflutterstudy/bean/product.dart';
 
-import 'layouts/example_page.dart';
-import 'gesturedetector/gesturedetector_layout.dart';
 import 'gesturedetector/dismissible_layout.dart';
+import 'pages/first_second_screen.dart';
+import 'pages/product_list.dart';
+import 'pages/first_page_with_data.dart';
 
 void main() => runApp(new MyApp());
 
@@ -16,7 +18,12 @@ class MyApp extends StatelessWidget {
           brightness: Brightness.light,
           primaryColor: Colors.lightGreen[600],
           accentColor: Colors.orange[600]),
-      home: DismissibleLayout(),
+//      home: ProductList(
+//        products:
+//            List.generate(20, (index) => Product('商品$index', '这是一个商品详情$index')),
+//      ),
+
+      home: FirstPageWithData(),
     );
   }
 }
