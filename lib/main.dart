@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterstudy/bean/product.dart';
 
-import 'gesturedetector/dismissible_layout.dart';
-import 'pages/first_second_screen.dart';
-import 'pages/product_list.dart';
-import 'pages/first_page_with_data.dart';
+import 'decorative/boxdecoration_one_demo.dart';
+import 'decorative/lineargradient_demo.dart';
+import 'decorative/radialgradient_demo.dart';
+import 'decorative/rotatedbox_demo.dart';
+import 'decorative/clipoval_demo.dart';
+import 'decorative/clippath_demo.dart';
 
 void main() => runApp(new MyApp());
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
 //            List.generate(20, (index) => Product('商品$index', '这是一个商品详情$index')),
 //      ),
 
-      home: FirstPageWithData(),
+      home: ClipPathWDemo(),
     );
   }
 }
