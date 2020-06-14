@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 
 import 'decorative/custompaint_five_demo.dart';
+import 'decorative/drawpoint_demo.dart';
+import 'decorative/drawarc_demo.dart';
+import 'decorative/drawpath_demo.dart';
+import 'animated/animated_opacity_demo.dart';
+import 'animated/hero_animated_demo.dart';
 
 void main() => runApp(new MyApp());
 
@@ -19,7 +24,7 @@ class MyApp extends StatelessWidget {
 //            List.generate(20, (index) => Product('商品$index', '这是一个商品详情$index')),
 //      ),
 
-      home: CustomPaintFiveWDemo(),
+      home: HeroAnimatedWDemo(),
     );
   }
 }
