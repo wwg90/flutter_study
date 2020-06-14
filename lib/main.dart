@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'decorative/boxdecoration_one_demo.dart';
-import 'decorative/lineargradient_demo.dart';
-import 'decorative/radialgradient_demo.dart';
-import 'decorative/rotatedbox_demo.dart';
-import 'decorative/clipoval_demo.dart';
-import 'decorative/clippath_demo.dart';
+import 'decorative/custompaint_five_demo.dart';
 
 void main() => runApp(new MyApp());
 
@@ -24,7 +19,7 @@ class MyApp extends StatelessWidget {
 //            List.generate(20, (index) => Product('商品$index', '这是一个商品详情$index')),
 //      ),
 
-      home: ClipPathWDemo(),
+      home: CustomPaintFiveWDemo(),
     );
   }
 }
